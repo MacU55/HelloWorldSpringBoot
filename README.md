@@ -12,3 +12,7 @@ Spring boot, version 2.5.1
 
 2) run image:
 docker run -p 8080:8080 spring-boot/my-hello-world
+
+3) run app:
+   http://localhost:8080/hello - > Hello Mike!
+   http://localhost:8080/hello&name=Bob -> Hello Bob!
